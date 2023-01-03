@@ -13,6 +13,7 @@
     --darkblue: hsl(235, 46%, 20%);
     --desaturatedblue: hsl(235, 45%, 61%);
     --paleblue: hsl(236, 100%, 87%);
+    --white: hsl(0, 100%, 100%);
 }
 
 body {
@@ -22,4 +23,61 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    main {
+        .content {
+            #leftarea {
+                background-color: var(--darkblue);
+                border-radius: 15px;
+                .person {
+                    background-color: var(--blue);
+                    border-radius: 15px;
+                    padding: 40px 30px 65px 30px;
+                    .image {
+                        margin-bottom: 30px;
+                        img {
+                            width: 70px;
+                            height: 70px;
+                            border: solid 2px var(--white);
+                            border-radius: 50%;
+                        }
+                    }
+                    .report {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        span {
+                            &:first-child {
+                                font-size: 15px;
+                                font-weight: 500;
+                                color: var(--desaturatedblue);
+                            }
+                            &:last-child {
+                                font-size: 32px;
+                                font-weight: 100;
+                                letter-spacing: 1px;
+                                color: var(--white);
+                                line-height: normal;
+                            }
+                        }
+                    }
+                }
+                .tabs {
+                    border-radius: 15px;
+                    padding: 20px 30px;
+                    .nav {
+                        .nav-link {
+                            font-size: 18px;
+                            text-align: left;
+                            color: var(--desaturatedblue);
+                            padding-left: 0;
+                            &.active {
+                                background-color: transparent;
+                                color: var(--white);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

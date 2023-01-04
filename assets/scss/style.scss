@@ -78,6 +78,65 @@ body {
                     }
                 }
             }
+            #rightarea {
+                .tab-content {
+                    .tabs {
+                        .tab-c {
+                            border-radius: 15px 15px 18px 18px;
+                            .content {
+                                margin-top: 50px;
+                                background-color: var(--darkblue);
+                                border-radius: 15px;
+                                div {
+                                    &:first-child {
+                                        border-radius: 15px 15px 0px 0px;
+                                    }
+                                    &:last-child {
+                                        border-radius: 0px 0px 15px 15px;
+                                    }
+                                }
+                            }
+                        }
+                        .work {
+                            background-image: url(/assets/img/icon-work.svg);
+                            background-repeat: no-repeat;
+                            background-position: top -5% right 6%;
+                            background-color: var(--lightred);
+                        }
+                        .play {
+                            background-image: url(/assets/img/icon-play.svg);
+                            background-repeat: no-repeat;
+                            background-position: top -5% right 6%;
+                            background-color: var(--softblue);
+                        }
+                        .study {
+                            background-image: url(/assets/img/icon-study.svg);
+                            background-repeat: no-repeat;
+                            background-position: top -5% right 6%;
+                            background-color: var(--red);
+                        }
+                        .exercise {
+                            background-image: url(/assets/img/icon-exercise.svg);
+                            background-repeat: no-repeat;
+                            background-position: top -5% right 6%;
+                            background-color: var(--limegreen);
+                        }
+                        .social {
+                            background-image: url(/assets/img/icon-social.svg);
+                            background-repeat: no-repeat;
+                            background-position: top -5% right 6%;
+                            background-color: var(--violet);
+                        }
+                        .selfcare {
+                            background-image: url(/assets/img/icon-self-care.svg);
+                            background-repeat: no-repeat;
+                            background-position: top -5% right 6%;
+                            background-color: var(--softorange);
+                        }
+                    }
+
+                }
+            }
         }
     }
 }

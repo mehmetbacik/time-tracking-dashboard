@@ -71,4 +71,54 @@ body main .content #leftarea .tabs .nav .nav-link {
 body main .content #leftarea .tabs .nav .nav-link.active {
   background-color: transparent;
   color: var(--white);
+}
+body main .content #rightarea .tab-content .tabs .tab-c {
+  border-radius: 15px 15px 18px 18px;
+}
+body main .content #rightarea .tab-content .tabs .tab-c .content {
+  margin-top: 50px;
+  background-color: var(--darkblue);
+  border-radius: 15px;
+}
+body main .content #rightarea .tab-content .tabs .tab-c .content div:first-child {
+  border-radius: 15px 15px 0px 0px;
+}
+body main .content #rightarea .tab-content .tabs .tab-c .content div:last-child {
+  border-radius: 0px 0px 15px 15px;
+}
+body main .content #rightarea .tab-content .tabs .work {
+  background-image: url(/assets/img/icon-work.svg);
+  background-repeat: no-repeat;
+  background-position: top -5% right 6%;
+  background-color: var(--lightred);
+}
+body main .content #rightarea .tab-content .tabs .play {
+  background-image: url(/assets/img/icon-play.svg);
+  background-repeat: no-repeat;
+  background-position: top -5% right 6%;
+  background-color: var(--softblue);
+}
+body main .content #rightarea .tab-content .tabs .study {
+  background-image: url(/assets/img/icon-study.svg);
+  background-repeat: no-repeat;
+  background-position: top -5% right 6%;
+  background-color: var(--red);
+}
+body main .content #rightarea .tab-content .tabs .exercise {
+  background-image: url(/assets/img/icon-exercise.svg);
+  background-repeat: no-repeat;
+  background-position: top -5% right 6%;
+  background-color: var(--limegreen);
+}
+body main .content #rightarea .tab-content .tabs .social {
+  background-image: url(/assets/img/icon-social.svg);
+  background-repeat: no-repeat;
+  background-position: top -5% right 6%;
+  background-color: var(--violet);
+}
+body main .content #rightarea .tab-content .tabs .selfcare {
+  background-image: url(/assets/img/icon-self-care.svg);
+  background-repeat: no-repeat;
+  background-position: top -5% right 6%;
+  background-color: var(--softorange);
 }/*# sourceMappingURL=style.css.map */

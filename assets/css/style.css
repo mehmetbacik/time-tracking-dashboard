@@ -18,10 +18,10 @@
 body {
   font-family: var(--font);
   background-color: var(--verydarkblue);
-  height: 100vh;
+  /*height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;*/
 }
 body main .content #leftarea {
   background-color: var(--darkblue);
@@ -30,10 +30,10 @@ body main .content #leftarea {
 body main .content #leftarea .person {
   background-color: var(--blue);
   border-radius: 15px;
-  padding: 40px 30px 65px 30px;
+  padding: 40px 30px 70px 30px;
 }
 body main .content #leftarea .person .image {
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 body main .content #leftarea .person .image img {
   width: 70px;
@@ -60,7 +60,7 @@ body main .content #leftarea .person .report span:last-child {
 }
 body main .content #leftarea .tabs {
   border-radius: 15px;
-  padding: 20px 30px;
+  padding: 30px;
 }
 body main .content #leftarea .tabs .nav .nav-link {
   font-size: 18px;
@@ -97,6 +97,15 @@ body main .content #rightarea .tab-content .tabs .tab-c .content .title {
 }
 body main .content #rightarea .tab-content .tabs .tab-c .content .title::after {
   content: url(/assets/img/icon-ellipsis.svg);
+}
+body main .content #rightarea .tab-content .tabs .tab-c .content .hrs {
+  font-size: 55px;
+  font-weight: 300;
+  color: var(--white);
+}
+body main .content #rightarea .tab-content .tabs .tab-c .content .lwk {
+  font-size: 16px;
+  color: var(--desaturatedblue);
 }
 body main .content #rightarea .tab-content .tabs .work {
   background-image: url(/assets/img/icon-work.svg);

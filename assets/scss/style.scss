@@ -87,12 +87,24 @@ body {
                                 margin-top: 50px;
                                 background-color: var(--darkblue);
                                 border-radius: 15px;
+                                padding: 30px;
                                 div {
                                     &:first-child {
                                         border-radius: 15px 15px 0px 0px;
                                     }
                                     &:last-child {
                                         border-radius: 0px 0px 15px 15px;
+                                    }
+                                }
+                                .title {
+                                    color: var(--white);
+                                    font-size: 18px;
+                                    font-weight: 500;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    &::after {
+                                        content: url(/assets/img/icon-ellipsis.svg);
                                     }
                                 }
                             }

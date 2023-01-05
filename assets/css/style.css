@@ -79,12 +79,24 @@ body main .content #rightarea .tab-content .tabs .tab-c .content {
   margin-top: 50px;
   background-color: var(--darkblue);
   border-radius: 15px;
+  padding: 30px;
 }
 body main .content #rightarea .tab-content .tabs .tab-c .content div:first-child {
   border-radius: 15px 15px 0px 0px;
 }
 body main .content #rightarea .tab-content .tabs .tab-c .content div:last-child {
   border-radius: 0px 0px 15px 15px;
+}
+body main .content #rightarea .tab-content .tabs .tab-c .content .title {
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body main .content #rightarea .tab-content .tabs .tab-c .content .title::after {
+  content: url(/assets/img/icon-ellipsis.svg);
 }
 body main .content #rightarea .tab-content .tabs .work {
   background-image: url(/assets/img/icon-work.svg);

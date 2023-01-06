@@ -23,71 +23,71 @@ body {
   align-items: center;
   justify-content: center;*/
 }
-body main .content #leftarea {
+body main .content #leftarea .tabtitle {
   background-color: var(--darkblue);
   border-radius: 15px;
 }
-body main .content #leftarea .person {
+body main .content #leftarea .tabtitle .person {
   background-color: var(--blue);
   border-radius: 15px;
   padding: 40px 30px 70px 30px;
 }
-body main .content #leftarea .person .image {
+body main .content #leftarea .tabtitle .person .image {
   margin-bottom: 35px;
 }
-body main .content #leftarea .person .image img {
+body main .content #leftarea .tabtitle .person .image img {
   width: 70px;
   height: 70px;
   border: solid 2px var(--white);
   border-radius: 50%;
 }
-body main .content #leftarea .person .report {
+body main .content #leftarea .tabtitle .person .report {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-body main .content #leftarea .person .report span:first-child {
+body main .content #leftarea .tabtitle .person .report span:first-child {
   font-size: 15px;
   font-weight: 500;
   color: var(--desaturatedblue);
 }
-body main .content #leftarea .person .report span:last-child {
-  font-size: 32px;
+body main .content #leftarea .tabtitle .person .report span:last-child {
+  font-size: 45px;
   font-weight: 100;
   letter-spacing: 1px;
   color: var(--white);
   line-height: normal;
 }
-body main .content #leftarea .tabs {
+body main .content #leftarea .tabtitle .tabs {
   border-radius: 15px;
   padding: 30px;
 }
-body main .content #leftarea .tabs .nav .nav-link {
+body main .content #leftarea .tabtitle .tabs .nav .nav-link {
   font-size: 18px;
   text-align: left;
   color: var(--desaturatedblue);
   padding-left: 0;
 }
-body main .content #leftarea .tabs .nav .nav-link.active {
+body main .content #leftarea .tabtitle .tabs .nav .nav-link.active {
   background-color: transparent;
   color: var(--white);
 }
-body main .content #rightarea .tab-content .tabs .tab-c {
+body main .content #rightarea .tab-content .tabs .t-child .tab-c {
   border-radius: 15px 15px 18px 18px;
 }
-body main .content #rightarea .tab-content .tabs .tab-c .content {
-  margin-top: 50px;
+body main .content #rightarea .tab-content .tabs .t-child .tab-c .content {
+  /*margin-top: 50px;
   background-color: var(--darkblue);
+  padding: 30px;*/
   border-radius: 15px;
-  padding: 30px;
 }
-body main .content #rightarea .tab-content .tabs .tab-c .content div:first-child {
+body main .content #rightarea .tab-content .tabs .t-child .tab-c .content div:first-child {
   border-radius: 15px 15px 0px 0px;
 }
-body main .content #rightarea .tab-content .tabs .tab-c .content div:last-child {
+body main .content #rightarea .tab-content .tabs .t-child .tab-c .content div:last-child {
   border-radius: 0px 0px 15px 15px;
 }
-body main .content #rightarea .tab-content .tabs .tab-c .content .title {
+body main .content #rightarea .tab-content .tabs .t-child .tab-c .content .title {
   color: var(--white);
   font-size: 18px;
   font-weight: 500;
@@ -95,49 +95,49 @@ body main .content #rightarea .tab-content .tabs .tab-c .content .title {
   align-items: center;
   justify-content: space-between;
 }
-body main .content #rightarea .tab-content .tabs .tab-c .content .title::after {
+body main .content #rightarea .tab-content .tabs .t-child .tab-c .content .title::after {
   content: url(/assets/img/icon-ellipsis.svg);
 }
-body main .content #rightarea .tab-content .tabs .tab-c .content .hrs {
+body main .content #rightarea .tab-content .tabs .t-child .tab-c .content .hrs {
   font-size: 55px;
   font-weight: 300;
   color: var(--white);
 }
-body main .content #rightarea .tab-content .tabs .tab-c .content .lwk {
+body main .content #rightarea .tab-content .tabs .t-child .tab-c .content .lwk {
   font-size: 16px;
   color: var(--desaturatedblue);
 }
-body main .content #rightarea .tab-content .tabs .work {
+body main .content #rightarea .tab-content .tabs .t-child .work {
   background-image: url(/assets/img/icon-work.svg);
   background-repeat: no-repeat;
   background-position: top -5% right 6%;
   background-color: var(--lightred);
 }
-body main .content #rightarea .tab-content .tabs .play {
+body main .content #rightarea .tab-content .tabs .t-child .play {
   background-image: url(/assets/img/icon-play.svg);
   background-repeat: no-repeat;
   background-position: top -5% right 6%;
   background-color: var(--softblue);
 }
-body main .content #rightarea .tab-content .tabs .study {
+body main .content #rightarea .tab-content .tabs .t-child .study {
   background-image: url(/assets/img/icon-study.svg);
   background-repeat: no-repeat;
   background-position: top -5% right 6%;
   background-color: var(--red);
 }
-body main .content #rightarea .tab-content .tabs .exercise {
+body main .content #rightarea .tab-content .tabs .t-child .exercise {
   background-image: url(/assets/img/icon-exercise.svg);
   background-repeat: no-repeat;
   background-position: top -5% right 6%;
   background-color: var(--limegreen);
 }
-body main .content #rightarea .tab-content .tabs .social {
+body main .content #rightarea .tab-content .tabs .t-child .social {
   background-image: url(/assets/img/icon-social.svg);
   background-repeat: no-repeat;
   background-position: top -5% right 6%;
   background-color: var(--violet);
 }
-body main .content #rightarea .tab-content .tabs .selfcare {
+body main .content #rightarea .tab-content .tabs .t-child .selfcare {
   background-image: url(/assets/img/icon-self-care.svg);
   background-repeat: no-repeat;
   background-position: top -5% right 6%;

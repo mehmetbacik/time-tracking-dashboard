@@ -27,11 +27,11 @@ body {
     background-color: var(--verydarkblue);
     main {
         .content {
-            #leftarea {
+            #profile {
                 .tabtitle {
                     background-color: var(--darkblue);
                     border-radius: 15px;
-                    .person {
+                    .profile__person {
                         background-color: var(--blue);
                         border-radius: 15px;
                         padding: 40px 30px 70px 30px;
@@ -82,7 +82,7 @@ body {
                     }
                 }
             }
-            #rightarea {
+            #cards {
                 .tab-content {
                     .tabs {
                         margin-bottom: 30px;

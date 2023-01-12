@@ -21,79 +21,83 @@
   box-sizing: border-box;
 }
 
-body {
+.dashboard {
   font-family: var(--font);
   background-color: var(--verydarkblue);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-body main .content #profile .tabtitle {
+.dashboard main .content #profile .tabtitle {
   background-color: var(--darkblue);
   border-radius: 15px;
 }
-body main .content #profile .tabtitle .profile__person {
+.dashboard main .content #profile .tabtitle .profile__person {
   background-color: var(--blue);
   border-radius: 15px;
   padding: 40px 30px 70px 30px;
 }
-body main .content #profile .tabtitle .profile__person .image {
+.dashboard main .content #profile .tabtitle .profile__person .image {
   margin-bottom: 40px;
 }
-body main .content #profile .tabtitle .profile__person .image img {
+.dashboard main .content #profile .tabtitle .profile__person .image img {
   width: 70px;
   height: 70px;
   border: solid 2px var(--white);
   border-radius: 50%;
 }
-body main .content #profile .tabtitle .profile__person .report {
+.dashboard main .content #profile .tabtitle .profile__person .report {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-body main .content #profile .tabtitle .profile__person .report span:first-child {
+.dashboard main .content #profile .tabtitle .profile__person .report span:first-child {
   font-size: 15px;
   font-weight: 500;
   color: var(--desaturatedblue);
 }
-body main .content #profile .tabtitle .profile__person .report span:last-child {
+.dashboard main .content #profile .tabtitle .profile__person .report span:last-child {
   font-size: 45px;
   font-weight: 100;
   letter-spacing: 1px;
   color: var(--white);
   line-height: normal;
 }
-body main .content #profile .tabtitle .tabs {
+.dashboard main .content #profile .tabtitle .tabs {
   border-radius: 15px;
   padding: 20px 30px;
 }
-body main .content #profile .tabtitle .tabs .nav .nav-link {
+.dashboard main .content #profile .tabtitle .tabs .nav .nav-link {
   font-size: 18px;
   text-align: left;
   color: var(--desaturatedblue);
   padding-left: 0;
 }
-body main .content #profile .tabtitle .tabs .nav .nav-link.active {
+.dashboard main .content #profile .tabtitle .tabs .nav .nav-link.active {
   background-color: transparent;
   color: var(--white);
 }
-body main .content #cards .tab-content .tabs {
+.dashboard main .content #cards .tab-content .tabs {
   margin-bottom: 30px;
 }
-body main .content #cards .tab-content .tabs .t-child .tab-c {
+.dashboard main .content #cards .tab-content .tabs .t-child .tab-c {
   border-radius: 15px 15px 18px 18px;
 }
-body main .content #cards .tab-content .tabs .t-child .tab-c .content {
+.dashboard main .content #cards .tab-content .tabs .t-child .tab-c .content {
   /*margin-top: 50px;
   background-color: var(--darkblue);
   padding: 30px;*/
   padding-top: 50px;
   border-radius: 15px;
 }
-body main .content #cards .tab-content .tabs .t-child .tab-c .content div:first-child {
+.dashboard main .content #cards .tab-content .tabs .t-child .tab-c .content div:first-child {
   border-radius: 15px 15px 0px 0px;
 }
-body main .content #cards .tab-content .tabs .t-child .tab-c .content div:last-child {
+.dashboard main .content #cards .tab-content .tabs .t-child .tab-c .content div:last-child {
   border-radius: 0px 0px 15px 15px;
 }
-body main .content #cards .tab-content .tabs .t-child .tab-c .content .title {
+.dashboard main .content #cards .tab-content .tabs .t-child .tab-c .content .title {
   color: var(--white);
   font-size: 18px;
   font-weight: 500;
@@ -103,55 +107,61 @@ body main .content #cards .tab-content .tabs .t-child .tab-c .content .title {
   background-color: var(--darkblue);
   padding: 30px 30px 0px 30px;
 }
-body main .content #cards .tab-content .tabs .t-child .tab-c .content .title::after {
+.dashboard main .content #cards .tab-content .tabs .t-child .tab-c .content .title::after {
   content: url(/assets/img/icon-ellipsis.svg);
 }
-body main .content #cards .tab-content .tabs .t-child .tab-c .content .hrs {
+.dashboard main .content #cards .tab-content .tabs .t-child .tab-c .content .hrs {
   font-size: 55px;
   font-weight: 300;
   color: var(--white);
   background-color: var(--darkblue);
   padding: 0px 30px;
 }
-body main .content #cards .tab-content .tabs .t-child .tab-c .content .lwk {
+.dashboard main .content #cards .tab-content .tabs .t-child .tab-c .content .lwk {
   font-size: 16px;
   color: var(--desaturatedblue);
   background-color: var(--darkblue);
   padding: 0px 30px 30px 30px;
 }
-body main .content #cards .tab-content .tabs .t-child .work {
+.dashboard main .content #cards .tab-content .tabs .t-child .work {
   background-image: url(/assets/img/icon-work.svg);
   background-repeat: no-repeat;
   background-position: top -5% right 6%;
   background-color: var(--lightred);
 }
-body main .content #cards .tab-content .tabs .t-child .play {
+.dashboard main .content #cards .tab-content .tabs .t-child .play {
   background-image: url(/assets/img/icon-play.svg);
   background-repeat: no-repeat;
   background-position: top -5% right 6%;
   background-color: var(--softblue);
 }
-body main .content #cards .tab-content .tabs .t-child .study {
+.dashboard main .content #cards .tab-content .tabs .t-child .study {
   background-image: url(/assets/img/icon-study.svg);
   background-repeat: no-repeat;
   background-position: top -5% right 6%;
   background-color: var(--red);
 }
-body main .content #cards .tab-content .tabs .t-child .exercise {
+.dashboard main .content #cards .tab-content .tabs .t-child .exercise {
   background-image: url(/assets/img/icon-exercise.svg);
   background-repeat: no-repeat;
   background-position: top -5% right 6%;
   background-color: var(--limegreen);
 }
-body main .content #cards .tab-content .tabs .t-child .social {
+.dashboard main .content #cards .tab-content .tabs .t-child .social {
   background-image: url(/assets/img/icon-social.svg);
   background-repeat: no-repeat;
   background-position: top -5% right 6%;
   background-color: var(--violet);
 }
-body main .content #cards .tab-content .tabs .t-child .selfcare {
+.dashboard main .content #cards .tab-content .tabs .t-child .selfcare {
   background-image: url(/assets/img/icon-self-care.svg);
   background-repeat: no-repeat;
   background-position: top -5% right 6%;
   background-color: var(--softorange);
+}
+
+@media screen and (max-width: 991px) {
+  .dashboard {
+    display: block;
+  }
 }/*# sourceMappingURL=style.css.map */

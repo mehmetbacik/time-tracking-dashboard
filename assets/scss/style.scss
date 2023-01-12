@@ -22,9 +22,13 @@
     box-sizing: border-box;
 }
 
-body {
+.dashboard {
     font-family: var(--font);
     background-color: var(--verydarkblue);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     main {
         .content {
             #profile {
@@ -173,5 +177,11 @@ body {
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .dashboard {
+        display: block;
     }
 }

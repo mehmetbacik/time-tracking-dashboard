@@ -183,5 +183,86 @@
 @media screen and (max-width: 991px) {
     .dashboard {
         display: block;
+        main {
+            .content {
+                #profile {
+                    margin-bottom: 30px;
+                    .tabtitle {
+                        .profile__person {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 15px;
+                            padding: 30px 25px 30px 25px;
+                            .image {
+                                margin-bottom: 0;
+                                img {
+                                }
+                            }
+                            .report {
+                                span {
+                                    &:first-child {
+                                        font-size: 12px;
+                                    }
+                                    &:last-child {
+                                        font-size: 20px
+                                    }
+                                }
+                            }
+                        }
+                        .tabs {
+                            .nav {
+                                .nav-link {
+                                    &.active {
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                #cards {
+                    .tab-content {
+                        .tabs {
+                            padding-right: 0;
+                            .t-child {
+                                padding-right: 0;
+                                margin-bottom: 30px;
+                                .tab-c {
+                                    .content {
+                                        div {
+                                            &:first-child {
+                                            }
+                                            &:last-child {
+                                            }
+                                        }
+                                        .title {
+                                            &::after {
+                                            }
+                                        }
+                                        .hrs {
+                                        }
+                                        .lwk {
+                                        }
+                                    }
+                                }
+                                .work {
+                                }
+                                .play {
+                                }
+                                .study {
+                                }
+                                .exercise {
+                                }
+                                .social {
+                                }
+                                .selfcare {
+                                }
+                            }
+                        }
+    
+                    }
+                }
+            }
+        }
     }
 }

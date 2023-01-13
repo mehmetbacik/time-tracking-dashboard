@@ -164,4 +164,30 @@
   .dashboard {
     display: block;
   }
+  .dashboard main .content #profile {
+    margin-bottom: 30px;
+  }
+  .dashboard main .content #profile .tabtitle .profile__person {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px 25px 30px 25px;
+  }
+  .dashboard main .content #profile .tabtitle .profile__person .image {
+    margin-bottom: 0;
+  }
+  .dashboard main .content #profile .tabtitle .profile__person .report span:first-child {
+    font-size: 12px;
+  }
+  .dashboard main .content #profile .tabtitle .profile__person .report span:last-child {
+    font-size: 20px;
+  }
+  .dashboard main .content #cards .tab-content .tabs {
+    padding-right: 0;
+  }
+  .dashboard main .content #cards .tab-content .tabs .t-child {
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
 }/*# sourceMappingURL=style.css.map */

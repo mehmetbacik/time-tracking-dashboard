@@ -183,6 +183,15 @@
   .dashboard main .content #profile .tabtitle .profile__person .report span:last-child {
     font-size: 20px;
   }
+  .dashboard main .content #profile .tabtitle .tabs {
+    padding: 20px 15px;
+  }
+  .dashboard main .content #profile .tabtitle .tabs .nav {
+    justify-content: center;
+  }
+  .dashboard main .content #profile .tabtitle .tabs .nav .nav-link {
+    padding-left: 1rem;
+  }
   .dashboard main .content #cards .tab-content .tabs {
     padding-right: 0;
   }

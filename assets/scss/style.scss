@@ -196,8 +196,6 @@
                             padding: 30px 25px 30px 25px;
                             .image {
                                 margin-bottom: 0;
-                                img {
-                                }
                             }
                             .report {
                                 span {
@@ -211,10 +209,11 @@
                             }
                         }
                         .tabs {
+                            padding: 20px 15px;
                             .nav {
+                                justify-content: center;
                                 .nav-link {
-                                    &.active {
-                                    }
+                                    padding-left: 1rem;
                                 }
                             }
                         }
@@ -227,36 +226,6 @@
                             .t-child {
                                 padding-right: 0;
                                 margin-bottom: 30px;
-                                .tab-c {
-                                    .content {
-                                        div {
-                                            &:first-child {
-                                            }
-                                            &:last-child {
-                                            }
-                                        }
-                                        .title {
-                                            &::after {
-                                            }
-                                        }
-                                        .hrs {
-                                        }
-                                        .lwk {
-                                        }
-                                    }
-                                }
-                                .work {
-                                }
-                                .play {
-                                }
-                                .study {
-                                }
-                                .exercise {
-                                }
-                                .social {
-                                }
-                                .selfcare {
-                                }
                             }
                         }
     
